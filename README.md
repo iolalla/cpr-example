@@ -25,7 +25,7 @@ cmake ..
 make
 ```
 
-This should produce two binaries in the build directory called `example` and `quandl`. Modify [example.cpp](https://github.com/iolalla/cpr-example/blob/master/example.cpp) to adapt it to your needs. If you want to use directly `quandl`, here you have some examples:
+This should produce two binaries in the build directory called `example` and `quandl`. Modify [example.cpp](https://github.com/iolalla/cpr-quandl/blob/master/example.cpp) to adapt it to your needs. If you want to use directly `quandl`, here you have some examples:
 
 ```
 ./quandl --ticker "YAHOO/MC_SAN" --order asc --start_date 2014-01-01 --end_date 2014-12-01 --code "<<YOURCODE>>" --rows 1000 --type json
@@ -54,9 +54,9 @@ Obviously will require, git, cmake and a C++11 compatible compiler such as clang
 
 ## Contributing
 
-Please fork the parent repository and contribute back using [pull requests](https://github.com/iolalla/cpr-example/pulls). Features can be requested using [issues](https://github.com/iolalla/cpr-example/issues). All code, comments, and critiques are greatly appreciated.
+Please fork the parent repository and contribute back using [pull requests](https://github.com/iolalla/cpr-quandl/pulls). Features can be requested using [issues](https://github.com/iolalla/cpr-quandl/issues). All code, comments, and critiques are greatly appreciated.
 
-For direct contributions to the example project, you can open [pull requests](https://github.com/iolalla/cpr-example/pulls) or [issues](https://github.com/iolalla/cpr-example/issues).
+For direct contributions to the example project, you can open [pull requests](https://github.com/iolalla/cpr-quandl/pulls) or [issues](https://github.com/iolalla/cpr-quandl/issues).
 
 ## Thanks 
 
