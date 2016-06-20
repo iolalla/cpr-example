@@ -30,7 +30,10 @@ else()
 endif()
 
 add_subdirectory(opt)
+find_package(gflags REQUIRED)
 
 add_executable(example example.cpp)
 target_link_libraries(example ${CPR_LIBRARIES})
-include_directories(${CPR_INCLUDE_DIRS} ${JSON_INCLUDE_DIRS})
+add_executable(quandl quandl.cpp)
+target_link_libraries(quandl ${CPR_LIBRARIES} gflags)
+include_directories(${root_SOURCE_DIR} ${CPR_INCLUDE_DIRS} ${JSON_INCLUDE_DIRS})
