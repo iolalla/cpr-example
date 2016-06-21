@@ -1,4 +1,6 @@
 set(JSON_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/json/src PARENT_SCOPE)
+set(INSECURE_CURL ON)
+
 
 if(WIN32)
     option(CMAKE_USE_OPENSSL "Use OpenSSL code. Experimental" OFF)

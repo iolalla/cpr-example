@@ -70,6 +70,7 @@ class quandl {
 		// 6. collapse;
 		// 7. Rows;
 		// 8. Output type
+		// 9. API version
 		// There are 7 optional arguments compared to the one above.
 		string get(string code, string order, string StartDate, string EndDate,
 			string transformation, string collapse, string rows, string type, string version){

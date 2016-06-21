@@ -20,7 +20,7 @@ DEFINE_string(transformation, "", "Transformation done to the resulting data");
 DEFINE_string(collapse, "", "Show data collapsed please");
 DEFINE_string(rows, "100", "How many rows you want to see");
 DEFINE_string(type, "json", "json/csv");
-DEFINE_string(version, "2015-04-09", "Version of the API, please visit https://www.quandl.com/help/api for further information");
+DEFINE_string(quandl_version, "2015-04-09", "Version of the API, please visit https://www.quandl.com/help/api for further information");
 
 int main(int argc, char** argv) {
 	
@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
 			ql.auth(FLAGS_code);
 			std::string content = ql.get(FLAGS_ticker,FLAGS_order, 
 				FLAGS_start_date, FLAGS_end_date, FLAGS_transformation, 
-				FLAGS_collapse, FLAGS_rows,FLAGS_type);
+				FLAGS_collapse, FLAGS_rows,FLAGS_type, FLAGS_quandl_version);
     		std::cout << content << endl;
     	} else {
     		std::cerr << "Need at least two arguments ticker and code \n" <<std::endl;
