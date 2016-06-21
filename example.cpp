@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
     std::string url = "https://www.quandl.com/api/v3/datasets/YAHOO/MC_SAN.json";
     url += "?api_version=2015-04-09";
     url += "&sort_order=desc";
-    url += "&auth_token=<<YOUROWNCODE>>"; //please visit to get your own auth code
+    url += "&auth_token="<<yourCode>>//please visit https://www.quandl.com/help/api to get your own auth code
     url += "&rows=10";
     
     try {
