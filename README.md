@@ -3,9 +3,9 @@
 This code is an example of integration of [cpr](https://github.com/whoshuu/cpr/) and [quandl](https://www.quandl.com/).
 
 Basically you can choose two different flavours:
-    - example: example.cpp that basically means to modify this code and adapt it to your needs.
-    - quandl: this a console tool designed to make it easy to integrate with other tools, so you can
-    use it as it is, so you can integrate the tool and get the files from Quandl into your process.
+
+- example: example.cpp that basically means to modify this code and adapt it to your needs.
+- quandl: this a console tool designed to make it easy to integrate with other tools, so you can use it as it is, so you can integrate the tool and get the files from Quandl into your process.
 
 
 ## Building
