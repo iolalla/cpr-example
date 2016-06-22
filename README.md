@@ -4,8 +4,8 @@ This code is an example of integration of [cpr](https://github.com/whoshuu/cpr/)
 
 Basically you can choose two different flavours:
 
-- example: example.cpp that basically means to modify this code and adapt it to your needs.
-- quandl: this a console tool designed to make it easy to integrate with other tools, so you can use it as it is, so you can integrate the tool and get the files from Quandl into your process.
+- **example** : example.cpp that basically means to modify this code and adapt it to your needs.
+- **quandl** : this a console tool designed to make it easy to integrate with other tools, so you can use it as it is, so you can integrate the tool and get the files from Quandl into your process.
 
 
 ## Building
@@ -49,7 +49,7 @@ This should produce two binaries in the build directory called `example` and `qu
 
 ## Requirements
 
-Obviously will require, git, cmake and a C++11 compatible compiler such as clang or gcc. The minimum required version of gcc is unknown, so if anyone has trouble building this library with a specific version of gcc, do let me know.
+Obviously will require, git, cmake and a C++11 compatible compiler such as clang or g++. The minimum required version of g++ is unknown, so if anyone has trouble building this library with a specific version of g++, do let me know.
 
 
 ## Contributing
